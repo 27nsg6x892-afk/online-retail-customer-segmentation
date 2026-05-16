@@ -86,11 +86,10 @@ This sample is only for viewing the dataset structure. To fully run the project,
 ## Repository Structure
 
 - online_retail_customer_segmentation.ipynb
-- Data_Mining_Project_Report.pdf
+- DM Report.pdf
 - requirements.txt
 - README.md
-- sample_data/
-  - sample_online_retail.csv
+- sample_online_retail.csv
 
 ## How to Run
 
@@ -112,9 +111,13 @@ This sample is only for viewing the dataset structure. To fully run the project,
 
 ## Notes
 
-- The full dataset is excluded because of file size limitations.
-- The sample dataset is included only to show the expected structure.
-- Some file paths inside the notebook may need to be updated depending on where the dataset is stored locally.
+## Sample Data
+
+A small sample file is included to make the repository easier to understand without uploading the full dataset.
+
+Sample file:
+
+- `sample_online_retail.csv`
 
 ## Project Status
 

@@ -20,8 +20,7 @@ The project applies RFM analysis, K-Medoids clustering, Hierarchical Clustering,
 
 The project uses online retail transaction data.
 
-The full dataset is not included in this repository because of file size limitations. A small sample dataset is included in the `sample_data/` folder only to show the expected data structure.
-
+The full dataset is not included in this repository because of file size limitations. A small sample dataset is included only to show the expected data structure.
 Expected data may include columns such as:
 
 - Customer ID
@@ -38,7 +37,7 @@ A small sample file is included to make the repository easier to understand with
 
 Sample file:
 
-- `sample_data/sample_online_retail.csv`
+- `sample_online_retail.csv`
 
 This sample is only for viewing the dataset structure. To fully run the project, download or use the complete dataset and place it in the correct local data folder.
 

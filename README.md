@@ -20,7 +20,7 @@ The project applies RFM analysis, K-Medoids clustering, Hierarchical Clustering,
 
 The project uses online retail transaction data.
 
-The full dataset may be excluded from this repository because of file size limitations. A small sample dataset can be included only to show the expected data structure.
+The full dataset is not included in this repository because of file size limitations. A small sample dataset is included in the `sample_data/` folder only to show the expected data structure.
 
 Expected data may include columns such as:
 
@@ -31,6 +31,16 @@ Expected data may include columns such as:
 - Unit price
 - Country
 - Product description
+
+## Sample Data
+
+A small sample file is included to make the repository easier to understand without uploading the full dataset.
+
+Sample file:
+
+- `sample_data/sample_online_retail.csv`
+
+This sample is only for viewing the dataset structure. To fully run the project, download or use the complete dataset and place it in the correct local data folder.
 
 ## Methods Used
 
@@ -70,6 +80,7 @@ Expected data may include columns such as:
 - Seaborn
 - Scikit-learn
 - SciPy
+- Scikit-learn-extra
 - Jupyter Notebook
 
 ## Repository Structure
@@ -79,6 +90,7 @@ Expected data may include columns such as:
 - requirements.txt
 - README.md
 - sample_data/
+  - sample_online_retail.csv
 
 ## How to Run
 
@@ -94,9 +106,15 @@ Expected data may include columns such as:
 
 `jupyter notebook online_retail_customer_segmentation.ipynb`
 
-4. Place the dataset in the expected data folder if the full dataset is not included.
+4. Place the full dataset in the expected local data folder if needed.
 
 5. Run the notebook cells in order.
+
+## Notes
+
+- The full dataset is excluded because of file size limitations.
+- The sample dataset is included only to show the expected structure.
+- Some file paths inside the notebook may need to be updated depending on where the dataset is stored locally.
 
 ## Project Status
 
